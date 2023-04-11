@@ -1,0 +1,279 @@
+/* CSS files add styling rules to your content */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  overflow: visible;
+}
+
+p {
+  font-size: 18px;
+}
+
+h1 {
+  font-family: 'Nunito', sans-serif;
+}
+
+body {
+  font-family: 'Karla', sans-serif;
+  background-image: url("https://img.freepik.com/free-vector/winter-blue-pink-gradient-background-vector_53876-117276.jpg?w=1800&t=st=1681171987~exp=1681172587~hmac=881d8aceaf7fef37221e2ed18162aee06cdfa434634043f981a2adde90f31fe8");
+}
+
+background-image {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;  
+}
+
+#name {
+  color: black;
+  text-align: center;
+  font-size: 48px;
+}
+
+/* Navigation Bar */ 
+#navlist {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+#navbar{
+  display: inline;
+  font-size: 18px;
+  padding: 15px;
+  margin: 0px;
+}
+
+nav {
+  text-align: right;
+  background-image: url("https://img.freepik.com/free-vector/winter-blue-pink-gradient-background-vector_53876-117276.jpg?w=1800&t=st=1681171987~exp=1681172587~hmac=881d8aceaf7fef37221e2ed18162aee06cdfa434634043f981a2adde90f31fe8");
+  position: sticky;
+  top: 0px;
+  text-decoration: none;
+  z-index: 10;
+  border-bottom: 1px solid black;
+}
+
+#navbar a {
+  color:black;
+  text-decoration: none;
+  padding: 15px;
+}
+
+#navbar a:hover{
+  text-decoration: underline;
+}
+
+/* Home Page */ 
+#home-container {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 100px;
+}
+
+#home-image {
+  width: 80%;
+  float: right;
+  object-fit: cover;
+}
+
+#home-image img {
+  border: 2px solid black;
+}
+
+#name, #home-bio p {
+  text-align: center;
+  vertical-align: middle;
+}
+
+#home-bio p {
+  padding-right: 100px;
+  padding-left: 100px;
+}
+
+/* About Page */
+#about-h1 {
+  color: black;
+  text-align: left;
+  font-size: 48px;
+  margin: 100px;
+  margin-top: 30px;
+}
+
+#about-container {
+  display: flex;
+  justify-content: center;
+  margin: 100px;
+  margin-top: -75px;
+}
+
+#about-me {
+  padding-right: 75px;
+}
+
+#travels {
+  display: flex;
+  justify-content: space-around;
+}
+
+#travels img {
+  padding: 10px;
+  width: 275px;
+  height: 200;
+  object-fit: cover;
+}
+
+#resume a {
+  color: black;
+  font-weight: bold;
+  font-size: 24px;
+  text-decoration: none;
+}
+
+#resume a:hover {
+  color: #95a7d4;
+  font-weight: bold;
+  font-size: 24px;
+  text-decoration: none;
+}
+
+/* Projects Page */
+#projects-container img {
+  width: 500px;
+  height: 400px;
+  object-fit: cover;
+  border: 3px solid black;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+
+#projects-container img:hover {
+opacity: 0.3;
+}
+
+
+#projects-container p {
+padding: 10px;
+}
+
+.project-1 {
+  border: 2px solid black;
+  border-radius: 20px;
+  margin-right: 100px;
+  margin-left: 100px;
+  margin-top: -90px;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+}
+
+.project-1 img {
+  margin-left: 50px;
+}
+
+.project-2 {
+  border: 2px solid black;
+  border-radius: 20px;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  margin-right: 100px;
+  margin-left: 100px;
+  margin-top: 75px;
+}
+
+.project-2 img {
+  margin-right: 50px;
+}
+
+.project-3 {
+  border: 2px solid black;
+  border-radius: 20px;
+  margin-right: 100px;
+  margin-left: 100px;
+  margin-top: -90px;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+}
+
+.project-3 img {
+  margin-left: 50px;
+}
+
+.project-4 {
+  border: 2px solid black;
+  border-radius: 20px;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  margin-right: 100px;
+  margin-left: 100px;
+  margin-top: 75px;
+}
+
+.project-4 img {
+  margin-right: 50px;
+}
+
+#proj-h1 {
+  color: black;
+  text-align: left;
+  font-size: 48px;
+  font-weight: bold;
+  margin: 100px;
+  margin-top: 30px;
+}
+
+.projectsBtn {
+  padding: 10px;
+  border: 1px solid black;
+  font-size: 18px;
+  border-radius: 20px;
+  background-color: #95a7d4;
+  font-family: 'Karla', sans-serif;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 0px;
+}
+
+.buttonDiv {
+ text-align: center;
+}
+
+button:hover {
+  opacity: 0.6;
+}
+
+/* Contacts Page */
+#contacts-page-container {
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+#contacts-container {
+  display: flex;
+  justify-content: center;
+  vertical-align: center;
+  padding: 25px;
+  margin-bottom: 100px;
+}
+#contacts-container img {
+ width: 50px;
+ height: 50px;
+ padding: 10px;
+ object-fit: cover;
+}
+
+#connect {
+  text-align: center;
+  font-size: 24px;
+  margin-top: 100px;
+}
